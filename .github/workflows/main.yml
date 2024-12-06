@@ -4,6 +4,10 @@ from twikit import Client
 
 ###########################################
 
+on:
+  workflow_dispatch:  # Allows manual triggering from the GitHub UI
+
+
 # Enter your account information
 USERNAME = "testing_2041"
 EMAIL = "isaac@mirana.tech"
