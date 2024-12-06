@@ -1,11 +1,11 @@
+on:
+  workflow_dispatch:  # Allows manual triggering from the GitHub UI
+
 import asyncio
 
 from twikit import Client
 
 ###########################################
-
-on:
-  workflow_dispatch:  # Allows manual triggering from the GitHub UI
 
 
 # Enter your account information
